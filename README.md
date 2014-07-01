@@ -1,6 +1,6 @@
-devbootcamp
+## DevBootcamp
 ===========
 
-a repo for all Dev Bootcamp exercises 
+### a repo for all Dev Bootcamp exercises
 
-1.dbc_overflow - a cms, stackoverflow clone
+1. dbc_overflow - a cms, stackoverflow clone
