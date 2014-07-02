@@ -1,0 +1,34 @@
+.display-tree-small{
+  background: url('../images/small_tree.jpg');
+  background-repeat: no-repeat;
+  height:500px;
+  width:500px;
+  border: solid black 2px;
+}
+
+.display-tree-big{
+  background: url('../images/big_tree.jpg');
+  background-repeat: no-repeat;
+  height: 525px;
+  width: 500px;
+  border: solid #136972 2px;
+  margin: 20px auto;
+  padding: 10px auto;
+  border-radius: 15px;
+}
+
+#orange-tree-template {
+  display: none;
+ }
+
+.title_container {
+  margin: 10px auto;
+  padding: 10px auto;
+  background-color: #F07444;
+  border: solid 2px #F3CF5B;
+  border-radius: 15px;
+  text-align: center;
+ }
+
+
+/* Add more styles here*/
