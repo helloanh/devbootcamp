@@ -1,0 +1,19 @@
+<h2>Sell Your Item</h2>
+
+<form action="/new_post/new" method="post">
+  Category:
+  <select name="category_id">
+    <% @categories.each do |category| %>
+      <option value= <%= category.id%>> <%= category.name %> </option>
+    <% end %>
+  </select><br><br>
+  Title: <input type="text" name="title"><br>
+  Price: <input type="text" name="price"><br>
+  Location: <input type="text" name="location"><br>
+  Email: <input type="text" name="email"><br>
+  Description: <input type="text" name="description"><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+

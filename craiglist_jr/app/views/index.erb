@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Welcome to Craiglist Jr ! </h1>
+  <p> Categories: </p>
+  <ul>
+    <% @categories.each do |cat| %>
+    <li> <a href= "/category/<%=cat.id%>"> <%= cat.name %> </a> </li>
+    <% end %>
+  </ul>
+</div>
+
+<div class="container">
+  <h4> <a href= "/new_post/new"> Sell your items </a></h4> <br>
+</div>

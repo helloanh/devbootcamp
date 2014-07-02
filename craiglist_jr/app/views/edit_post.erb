@@ -1,0 +1,11 @@
+<h2>Edit Your Item</h2>
+
+<form action="/post/<%= @post.id %>" method="post">
+  Title: <input type="text" name="title" value=<%= @post.title %>><br>
+  Price: <input type="text" name="price" value=<%= @post.price %>><br>
+  Location: <input type="text" name="location" value=<%= @post.location %>><br>
+  Email: <input type="text" name="email" value=<%= @post.email %>><br>
+  Description: <input type="text" name="description" value=<%= @post.description %>><br>
+
+  <input type="submit" value="Submit">
+</form>

@@ -1,0 +1,9 @@
+<div class="container">
+  <h1> <%= @post.title %>  </h1>
+      <p><%= "Description: #{@post.description}" %> </p>
+      <p><%= "Price: $#{@post.price} " %> </p>
+      <p><%= "Location: #{@post.location}" %> </p>
+      <p><%= "Contact: #{@post.email}" %> </p>
+      <a href="/post/<%= @post.id %>/edit">Edit Post</a> <br>
+      <a href="/" > Home </a>
+</div>
