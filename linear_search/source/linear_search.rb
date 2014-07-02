@@ -1,14 +1,3 @@
-# random_numbers = [ 6, 29, 18, 2, 72, 19, 18, 10, 37 ]
-# def linear_search(num, num_arr)
-  # num_arr
- # until num_arr[-1] == num
-   # num_arr.pop
- # end
- # return  num_arr.length - 1
-# end
-
-# ------------------
-
 
 random_numbers = [ 6, 29, 18, 2, 72, 19, 18, 10, 37 ]
 def linear_search(num, num_arr) # 18
