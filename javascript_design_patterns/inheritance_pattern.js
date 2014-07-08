@@ -28,10 +28,10 @@ function Coffee(type) {
 // this is how we set up inheritance
 // we use Object.create to take the Beverage object
 
-Coffe.prototype = Object.create(Beverage.prototype)
+Coffee.prototype = Object.create(Beverage.prototype);
 
 Coffee.prototype.sip = function() {
-  console.log("Spiing some awesome " + this.type + " " + this.name)[]
+  console.log("Spiing some awesome " + this.type + " " + this.name);
 }
 
 
@@ -39,10 +39,25 @@ Coffee.prototype.sip = function() {
 
 function Coffee(type) {
   Beverage.call(this, "coffee", "hot");
-  this.type = type
+  this.type = type;;
 }
 
 
 
 var water =  new Beverage("water", "cold");
 var coffee = new Coffee("bold");
+
+// shortcomings:
+// we have to call parent constructor within the child object
+// a bigger issue is code reuse
+
+function Person(name) {
+  this.name = name;
+}
+
+function Dog(name) {
+  this.name = name;
+}
+
+// let's say the Person and Dog object have many similarities such as the talk, sleep, eat functions. how do we deal with this?
+// hint: see next lesson, mixins

@@ -16,7 +16,8 @@ var johnDoe = {
 
 // let's take johnDoe method to create janeDoe method
 // we can use Object.create()
-//
+
+//Object.create() make a prototype method chain
 
 var janeDoe = Object.create(johnDoe, {
   firstName: {value: "Jane"},
@@ -38,7 +39,6 @@ console.log(janeDoe.sayName() + " " + janeDoe.greet(johnDoe));
 
 console.log(jimSmith.sayName() + " " + jimSmith.greet(janeDoe));
 
-//Object.create() make a prototype method chain
 console.log(janeDoe.__proto__ === johnDoe);
 console.log(jimSmith.__proto__ === janeDoe);
 
