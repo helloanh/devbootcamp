@@ -79,3 +79,6 @@ my_method
 
 # the final puts method is executed
 # lambda DO NOT escape the method after the "return" keyword
+
+# if we use "break", procs will throw an error while lambdas will just escape the lambda itself
+
