@@ -10,13 +10,13 @@ Suppose first cell has the memory address of 200, the second at 201, the third a
 Let's try to talk about how memory work with a story.
 Alberta is a programmer and she is building an app.  She needs to store some data, so she needs to take to the memory manager.  The memory manager keeps track of what part of the memory is free and what part is allocated.  Joey is the memory manager for today.
 
-Albert: Hey, Joey, give me this:
+Alberta: Hey, Joey, give me this:
 ``` c
 int x;
 ```
 Joey walks over to the computer's memory and find four 4 bytes of memory at the address 217 to store int x.
 
-Albert: Alright, I still need a few more things, Joey
+Alberta: Alright, I still need a few more things, Joey
 ``` c
 int x;
 x = 8;
