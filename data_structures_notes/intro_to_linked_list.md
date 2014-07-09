@@ -1,4 +1,4 @@
-# Linked List Data Structure
+# Linked List 
 
 We need to look at how memory works before we can understand linked list.    
 Suppose first cell has teh memory address of 200, the second at 201, the third at 202, and so on...
