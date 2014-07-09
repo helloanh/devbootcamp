@@ -1,7 +1,7 @@
 # Linked List 
 
 We need to look at how memory works before we can understand linked list.    
-Suppose first cell has teh memory address of 200, the second at 201, the third at 202, and so on...
+Suppose first cell has the memory address of 200, the second at 201, the third at 202, and so on...
 
 <a href="http://imgur.com/sR6Q2JT"><img src="http://i.imgur.com/sR6Q2JT.png?1" title="Hosted by imgur.com"/></a>
 
