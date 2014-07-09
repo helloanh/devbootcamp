@@ -3,9 +3,9 @@
 List is nothing but a collection of an objects of the *same* type.
 
 #### Let's define a basic list:
-    + store a given number of elements ofa given data-type
-    + write/modify element of a position
-    + read element at a position
+  + store a given number of elements of a + given data-type
+  + write/modify element of a position
+  + read element at a position
 
 An array gives us all of these features
 
@@ -68,20 +68,16 @@ The process to do this is costly, in term of time.
 Usually when an array is full, we copy the old elements into the new array with **double** the MAXSIZE.
 
 #### What is the cost of all of these operations in a dynamic list?
-    1. Access - read/write element at an index takes *constant* time
-        + O(1)
-
-    2. Insert at the end of the list
-        + also constant time
-
-    3. Insert at a particular position
-        + O(n), time will be proportional to the length of the list
-
-    4. Remove - O(n)
-
-    5. Add - or insert an element at the end when the array is full
-        + O(1) if list is not full
-        + O(n) if the list if full
+  1. Access - read/write element at aindex takes *constant* time
+    + O(1
+  2. Insert at the end of the list
+    + also constant tim
+  3. Insert at a particular position
+    + O(n), time will be proportional tthe length of the lis
+  4. Remove - O(n
+  5. Add - or insert an element at the end when the array is full
+    + O(1) if list is not full
+    + O(n) if the list if full
 
 #### Pros and Cons of List
 good:
