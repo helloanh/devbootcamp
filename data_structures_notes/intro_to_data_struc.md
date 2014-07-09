@@ -3,7 +3,7 @@
 ### Examples of everyday data structures
 
 1. english dictionary -  a list of sorted words
-2. city map - geometric map data on an 2-D plane, with scales and directions
+2. city map - geometric map data on an 2-D   plane, with scales and directions
 3. cashbook - tabular schema
 
     A computer works with many kind of data.  How we organize structure and data matters.
@@ -20,9 +20,8 @@
 2. Implementation
     + arrays
 
-
 ### Abstract Data Types (ADTs)
-Define data and operations, but no implementation: <br>
+Define data and operations, but no implementation:
 
   + arrays
   + linked list
