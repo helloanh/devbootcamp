@@ -69,12 +69,12 @@ Usually when an array is full, we copy the old elements into the new array with 
 
 #### What is the cost of all of these operations in a dynamic list?
   1. Access - read/write element at aindex takes *constant* time
-    + O(1
+    + O(1)
   2. Insert at the end of the list
     + also constant tim
   3. Insert at a particular position
     + O(n), time will be proportional tthe length of the lis
-  4. Remove - O(n
+  4. Remove - O(n)
   5. Add - or insert an element at the end when the array is full
     + O(1) if list is not full
     + O(n) if the list if full
