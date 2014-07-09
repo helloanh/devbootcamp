@@ -30,7 +30,7 @@ Define data and operations, but no implementation:
   + tree
   + graph
 
-Some points of consideration for each of these data types:
+Some points of consideration for each of these data types:  
   1.logical view
   2. operations
   3. cost of operations
