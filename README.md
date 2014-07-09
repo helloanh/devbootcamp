@@ -8,11 +8,11 @@ DBC is a 9 weeks intensive coding program that focuses on turning students into 
 
 ### Curriculum Emphasis:
 
-  ● Object Oriented Design, Model View Controller, RESTful patterns <br>
-  ● Ruby on Rails, Sinatra, ActiveRecord, MVC JavaScript, HTML5/ CSS3, jQuery, AJAX <br>
-  ● Object-relational databases PostgreSQL and SQLite3, as well as Firebase <br>
-  ● Test-driven development and behavior driven development using RSpec and Jasmine <br>
-  ● Git version control and Heroku deployment
+   ● Object Oriented Design, Model View Controller, RESTful patterns <br>
+   ● Ruby on Rails, Sinatra, ActiveRecord, MVC JavaScript, HTML5/ CSS3, jQuery, AJAX <br>
+   ● Object-relational databases PostgreSQL and SQLite3, as well as Firebase <br>
+   ● Test-driven development and behavior driven development using RSpec and Jasmine <br>
+   ● Git version control and Heroku deployment
 
 ### Table of Contents
   1. Database Design
@@ -46,10 +46,10 @@ DBC is a 9 weeks intensive coding program that focuses on turning students into 
       + dev_doc_form_js_html_practice
       + gradebook
       + manipulate_js_objects
-    + Ruby App Porfolio
+  + Ruby App Porfolio
       + craiglist jr
       + dbc overflow
-    + Ruby Coding Exercises
+  + Ruby Coding Exercises
       + debugging_utility_drawer
       + fun_string_challenge
       + guess_game
@@ -63,7 +63,7 @@ DBC is a 9 weeks intensive coding program that focuses on turning students into 
       + student_class
       + super_fizzbuzz
       + virus_predictor
-    + Test Driven Development Practice
+  + Test Driven Development Practice
       + orange tree jasmine testing
       + team ruby testing
 
