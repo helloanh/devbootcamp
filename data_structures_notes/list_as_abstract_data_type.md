@@ -80,9 +80,11 @@ Usually when an array is full, we copy the old elements into the new array with 
     + O(n) if the list if full
 
 #### Pros and Cons of List
-good:  
+good:    
   + access elements at any index at constant time  
+  
 costly:  
+
   + if we have to remove elements from the list  
   + if we have to insert elements from a particular position  
   + if list grows and shrinks alot  
