@@ -41,11 +41,11 @@ DBC is a 9 weeks intensive coding program that focuses on turning students into 
       + modules
       + observer_pattern
       + singleton
-    + JS Coding Exercises
-      + calculations
-      + dev_doc_form_js_html_practice
-      + gradebook
-      + manipulate_js_objects
+    + JS Coding Exercises  
+      + calculations  
+      + dev_doc_form_js_html_practice  
+      + gradebook  
+      + manipulate_js_objects  
   + Ruby App Porfolio
       + craiglist jr
       + dbc overflow
