@@ -2,6 +2,7 @@
 
 #### Why We Need Linked List: How Memory Works
 We need to look at how memory works before we can understand linked list.
+
 Suppose first cell has the memory address of 200, the second at 201, the third at 202, and so on...
 
 <a href="http://imgur.com/sR6Q2JT"><img src="http://i.imgur.com/sR6Q2JT.png?1" title="Hosted by imgur.com"/></a>
@@ -10,13 +11,13 @@ Let's try to talk about how memory work with a story.
 Alberta is a programmer and she is building an app.  She needs to store some data, so she needs to take to the memory manager.  The memory manager keeps track of what part of the memory is free and what part is allocated.  Joey is the memory manager for today.
 
 Albert: Hey, Joey, give me this:
-``` c++
+``` c
 int x;
 ```
 Joey walks over to the computer's memory and find four 4 bytes of memory at the address 217 to store int x.
 
-Alberta: Alright, I still need a few more things, Joey
-``` c++
+Albert: Alright, I still need a few more things, Joey
+``` c
 int x;
 x = 8;
 int A[4];
@@ -79,13 +80,5 @@ For example, the number 2 now have 252 as its memory address.  The newly created
 Unlike arrays, we cannot access the elements in constant time.  Since we have to start from the head, the time taken to access elements is propotional to n-elements of the list.  Thus, the worst case is O(n).  Insertion time is also O(n).
 
 Notice the benefit of linked list is, we don't waste extra memory unlike the list (array) structure.
-
-
-
-
-
-
-
-
 
 
