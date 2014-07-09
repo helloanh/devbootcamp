@@ -81,12 +81,11 @@ Usually when an array is full, we copy the old elements into the new array with 
 
 #### Pros and Cons of List
 good:  
-    + access elements at any index at constant time  
+  + access elements at any index at constant time  
 costly:  
-    + if we have to remove elements from the list  
-    + if we have to insert elements from a particular position  
-    + if list grows and shrinks alot  
-    + not efficient in terms of memory, since there are many empty cells  
-
+  + if we have to remove elements from the list  
+  + if we have to insert elements from a particular position  
+  + if list grows and shrinks alot  
+  + not efficient in terms of memory, since there are many empty cells  
 
 *Source*: https://www.youtube.com/watch?v=HdFG8L1sajw&index=2&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
