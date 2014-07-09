@@ -15,7 +15,60 @@ DBC is a 9 weeks intensive coding program that focuses on turning students into 
   ● Git version control and Heroku deployment
 
 ### Table of Contents
+  1. Database Design
+    + family tree database design
+    + intro to sqlite drill
+    + many to many schema
+    + twitter one to many schema
+  2. Data Structure Notes
+    + intro to data structure
+    + intro to linked list
+    + list as abstract data type
+  3. JavaScript Challenges
+    + ajax and jquery
+        + simon says
+    + JS design patterns
+      + advance_decorator_pattern
+      + command_pattern
+      + create_objects_constructor_pattern
+      + create_objects_with_object_create
+      + creating_objects_with_literals
+      + decorator_pattern
+      + facade_pattern
+      + factory_pattern
+      + inheritance_pattern
+      + mixins1
+      + modules
+      + observer_pattern
+      + singleton
+    + JS Coding Exercises
+      + calculations
+      + dev_doc_form_js_html_practice
+      + gradebook
+      + manipulate_js_objects
+    + Ruby App Porfolio
+      + craiglist jr
+      + dbc overflow
+    + Ruby Coding Exercises
+      + debugging_utility_drawer
+      + fun_string_challenge
+      + guess_game
+      + linear_search
+      + luhn_cc_validator
+      + number-in-words-challenge
+      + password_validator
+      + playlist_challenge
+      + rb_blocks_procs_lambda
+      + rpn_evaluator
+      + student_class
+      + super_fizzbuzz
+      + virus_predictor
+    + Test Driven Development Practice
+      + orange tree jasmine testing
+      + team ruby testing
 
+
+#### devbootcamp tree structure
 ```
 .
 ├── README.md
