@@ -5,7 +5,6 @@ This is like a checklist to see where you are as a general programmer.
 
 0. What happens when you type www.mysampleapp.com in your browser and press return?
     A good answer spans every part of the Internet from the client browser & operating system, DNS, through the network, to load balancers, servers, services, storage, down to the operating system & hardware, and all the way back again to the browser. It requires an understanding of TCP/IP, HTTP, & SSL deep enough to describe how connections are managed, how load-balancers work, and how certificates are exchanged and validated… and that’s just the first request!
-
 1. Compare and Contrast blocks, Procs, and Lambdas.
 2. Overview of Data Structures ( Pros, Cons of each, BigO)
 3. Specific Binary Search Tree (as Abstract Data Type)
@@ -21,10 +20,8 @@ This is like a checklist to see where you are as a general programmer.
 13. What is middleware? How does it compare to controller filters/actions?
 14. Explain various forms of caching available in Rails.
 15. What are some Ruby web server options?
-
 16. What are #method_missing and #send? Why are they useful?
 17. What are the various Ruby runtimes, and how are they different?
-
 18. Overview of some JS populat design pattern:
     + Object Literal, Contructor, Mixins, Inheritance, Decorator,
     + Singleton, Factory, Façade, Command, Observer
@@ -54,8 +51,8 @@ This is like a checklist to see where you are as a general programmer.
 >> nil.object_id
 => 4
 ```
-36.  Print out the prime numbers between 1 and 100. As a first pass, don't worry about writing an efficient algorithm. Just write clear code that is easy to follow. Once you've done that, consider different possible optimizations.
 
+36.  Print out the prime numbers between 1 and 100. As a first pass, don't worry about writing an efficient algorithm. Just write clear code that is easy to follow. Once you've done that, consider different possible optimizations.
 37.  Arrays Vs Linked Lists in Ruby
 For the data structures: Array and Linked List explain:
     Where you might use them
@@ -97,8 +94,6 @@ For the data structures: Array and Linked List explain:
 (http://stackoverflow.com/questions/2474861/shortest-ruby-quine)
 
 
-
-
 Sources:
 http://radar.oreilly.com/2009/05/velocity-conference-big-ideas.html
 http://blog.josephwilk.net/ruby/rubyrails-interview-questions.html
@@ -110,6 +105,7 @@ http://stevehanov.ca/blog/index.php?id=106
 http://www.technoscrum.blogspot.in/2013/07/ruby-on-rails-interview-questions.html
 http://www.skorks.com/2010/03/an-interview-question-that-prints-out-its-own-source-code-in-ruby/
 http://blog.onideas.ws/ruby_quine
+
 
 
 
