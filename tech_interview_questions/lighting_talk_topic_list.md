@@ -1,7 +1,7 @@
 # Lighting Talk Topic List
 
-First, visit: http://sijinjoseph.com/programmer-competency-matrix/
-This is like a checklist to see where you are as a general programmer.
+First, visit: http://sijinjoseph.com/programmer-competency-matrix/  
+This is like a checklist to see where you are as a general programmer.  
 
 0. What happens when you type www.mysampleapp.com in your browser and press return?
     A good answer spans every part of the Internet from the client browser & operating system, DNS, through the network, to load balancers, servers, services, storage, down to the operating system & hardware, and all the way back again to the browser. It requires an understanding of TCP/IP, HTTP, & SSL deep enough to describe how connections are managed, how load-balancers work, and how certificates are exchanged and validated… and that’s just the first request!
@@ -94,17 +94,17 @@ For the data structures: Array and Linked List explain:
 (http://stackoverflow.com/questions/2474861/shortest-ruby-quine)
 
 
-Sources:
-http://radar.oreilly.com/2009/05/velocity-conference-big-ideas.html
-http://blog.josephwilk.net/ruby/rubyrails-interview-questions.html
-http://thereq.com/q/best-ruby-software-interview-questions/easy
-http://www.psteiner.com/2013/02/preparing-for-ruby-on-rails-job.html
-http://blog.sandeep.me/2012/05/ruby-on-rails-interview-questions.html
-http://sijinjoseph.com/programmer-competency-matrix/
-http://stevehanov.ca/blog/index.php?id=106
-http://www.technoscrum.blogspot.in/2013/07/ruby-on-rails-interview-questions.html
-http://www.skorks.com/2010/03/an-interview-question-that-prints-out-its-own-source-code-in-ruby/
-http://blog.onideas.ws/ruby_quine
+Sources:  
+http://radar.oreilly.com/2009/05/velocity-conference-big-ideas.html  
+http://blog.josephwilk.net/ruby/rubyrails-interview-questions.html  
+http://thereq.com/q/best-ruby-software-interview-questions/easy  
+http://www.psteiner.com/2013/02/preparing-for-ruby-on-rails-job.html  
+http://blog.sandeep.me/2012/05/ruby-on-rails-interview-questions.html  
+http://sijinjoseph.com/programmer-competency-matrix/  
+http://stevehanov.ca/blog/index.php?id=106  
+http://www.technoscrum.blogspot.in/2013/07/ruby-on-rails-interview-questions.html  
+http://www.skorks.com/2010/03/an-interview-question-that-prints-out-its-own-source-code-in-ruby/  
+http://blog.onideas.ws/ruby_quine  
 
 
 
