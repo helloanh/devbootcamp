@@ -1,6 +1,6 @@
 #devbootcamp
 a porfolio of all projects, exercises, and lecture notes relating to DevBootcamp   
-(and also some relevant post-DBC assignments here as well)  
+( plus also some relevant post-DBC assignments )  
 
 languages:  Ruby, Rails, JavaScript, and HTML  
 
