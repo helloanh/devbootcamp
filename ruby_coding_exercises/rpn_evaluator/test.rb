@@ -18,5 +18,11 @@ def atof(float_as_str)  #"21.34"
 end
 
 
+def atoi(str_of_num)  # "22"
+  ascii_arr = str_of_num.bytes  # [50,50]
+  ascii_arr.map {|ascii| ascii - 48}.inject {|sum, n| sum * 10+ n}
+end
 
-
+def atoi(str_of_num)
+  ascii_arr = str_of_num.each_byte.to_a # [50,50]
+  ascii_arr.map {|ascii| ascii - 48}  #[2,2]
