@@ -112,7 +112,7 @@ function PaddockArea(array_coords) {
 // --------------- TEST CASES -------------
 
 // These test cases should fail
-PaddockArea([ [1,0], [1,1] ])                                     // Input out of range.
+PaddockArea([ [1,0], [1,1] ])                                     // "Input out of range."
 PaddockArea([ [4,3],[5,2],[5,1],[4,0],[3,0],[2,1],[2,2],[3,3] ])  //"Input out of range."
 PaddockArea([ [212,0], [1,-113], [0,0], [0,1] ])                  // "Coordinates outside of -10 to 10 range."
 PaddockArea([ [2,2], [1], [5] ])                                  //"Invalid input.  Coordinates must have a pair."
