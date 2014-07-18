@@ -1,6 +1,9 @@
 #devbootcamp
-a repo for all Dev Bootcamp exercises
+a repo for all Dev Bootcamp exercises  
+languages:  Ruby, Rails, JavaScript, and HTML  
 
+
+  
 
 ### About Dev Bootcamp
 DBC is a 9 weeks intensive coding program that focuses on turning students into web developers using the Rails framework. Students spent 1000+ hours on Ruby fundamentals, relational database concepts, and front-end development.
