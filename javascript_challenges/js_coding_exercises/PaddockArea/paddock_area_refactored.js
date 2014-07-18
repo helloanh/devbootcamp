@@ -1,7 +1,8 @@
 /* I want to refactor my original area code with the Command Pattern for several reasons:
 
   - my code smells: it was too coupled, there was no seperation of concerns
-  - the interface is limited for future features, for example, we might need to add functionalities such as: a function to calculate the perimeter, another to calc the cost of the materials based on the area, etc.
+  - the interface is limited for future features, for example, we might need to add functionalities such as:
+  a function to calculate the perimeter, another to calc the cost of the materials based on the area, etc.
 
   - the command pattern is great to separate the issue of the command from the execution
 
@@ -10,9 +11,10 @@
   Tut+ Video JS Design Patterns
 
   Notes:
-  some changes to the input format
+   We've got some complains...rancher Joe do not like brackets as input
+   I change the input format to make rancher Joe happy
    INPUT is "0 -10 7 -10 10 -8 0 -10"
-  string input without commas and bracket is more user-friendly
+    (string input without commas and bracket is more user-friendly)
 */
 
 
@@ -39,7 +41,10 @@ function Command(funct, coords) {
 
 function DisplayErrorsCommand(coords) {
   Command.call(this, function(coords) {
+    //getting a "length" error code, what's going on here?
+    debugger
     var coordsSize = this.coords.length;
+    
 
     console.log(coordsSize);
     if (coordsSize === 0) {
@@ -71,10 +76,11 @@ function AreaCommand(coords) {
     total += coords[i] * coords[i+3] - coords[i+2] * coords[i+1];
   }
 
+  //needs some refactoring still
   area = (total/2).toPrecision(2);
   console.log("what is total: " + total);
   return Number(area).toString() + " acres";
-    return console.log("inside AreaCommand function");
+    //return console.log("inside AreaCommand function");
   }, coords);
 }
 
