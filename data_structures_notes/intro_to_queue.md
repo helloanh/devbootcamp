@@ -12,6 +12,8 @@
 
 ## Queue Implementation
 
+<a href="http://imgur.com/KK9zW1P"><img src="http://i.imgur.com/KK9zW1P.png" title="Hosted by imgur.com"/></a>
+
 ```
 ```
 
@@ -20,7 +22,7 @@ Queue is often used in a scenario where there is a shared resource that is serve
 
   ex1: Network Printer
 
-
+<a href="http://imgur.com/a5So1bZ"><img src="http://i.imgur.com/a5So1bZ.png" title="Hosted by imgur.com"/></a>
   ex2: Computer Processor
 
 
