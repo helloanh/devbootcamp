@@ -9,6 +9,20 @@ window.Calculator = {
     }
 
     this.current = sum;
-    return this.current;
+    return sum;
+  },
+
+  subtract: function() {
+    var result = this.current;
+    for (var i = 0, len = arguments.length; i < len; i++) {
+      result -= arguments[i];
+    }
+
+    this.current = result;
+    return result;
+  },
+
+  reset: function() {
+    this.current = 0;
   }
 };
