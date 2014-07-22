@@ -13,6 +13,8 @@ Two problems we are going to solve:
 
 We can create a stack for our characters:
 
+<a href="http://imgur.com/xn1gxkZ"><img src="http://i.imgur.com/xn1gxkZ.png" title="Hosted by imgur.com"/></a>
+
 Once all character at the string are going into the stack, we can get the top of the stack and pop.  We keep doing this until the stack is empty.
 
 ``` c++
@@ -53,6 +55,8 @@ Space complexity = O(n)
 
 
 ## Using Linked List
+
+<a href="http://imgur.com/F5yquen"><img src="http://i.imgur.com/F5yquen.png" title="Hosted by imgur.com"/></a>
 
 Iterative solution
  + time O(n)
