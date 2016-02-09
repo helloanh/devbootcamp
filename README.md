@@ -2,13 +2,14 @@
 a porfolio of all projects, exercises, and lecture notes relating to DevBootcamp   
 ( plus also some relevant post-DBC assignments )  
 
-languages:  Ruby, Rails, JavaScript, and HTML  
+languages:  Ruby, JavaScript, and HTML
+frameworks: Rails
 
 
   
 
 ### About Dev Bootcamp
-DBC is a 9 weeks intensive coding program that focuses on turning students into web developers using the Rails framework. Students spent 1000+ hours on Ruby fundamentals, relational database concepts, and front-end development.
+DBC is a 9-week, intensive coding program that focuses on turning students into web developers using the Rails framework. Students spent 1000+ hours on Ruby fundamentals, relational database concepts, and front-end development.
 
 
 ### Curriculum Emphasis:
@@ -16,7 +17,7 @@ DBC is a 9 weeks intensive coding program that focuses on turning students into 
    ● Object Oriented Design, Model View Controller, RESTful patterns <br>
    ● Ruby on Rails, Sinatra, ActiveRecord, MVC JavaScript, HTML5/ CSS3, jQuery, AJAX <br>
    ● Object-relational databases PostgreSQL and SQLite3, as well as Firebase <br>
-   ● Test-driven development and behavior driven development using RSpec and Jasmine <br>
+   ● Test-driven development and behavior-driven development using RSpec and Jasmine <br>
    ● Git version control and Heroku deployment
 
 ### Table of Contents
