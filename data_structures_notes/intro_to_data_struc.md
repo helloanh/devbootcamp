@@ -1,4 +1,4 @@
-##Introduction to Data Structure
+## Introduction to Data Structure
 
 ### Examples of everyday data structures
 
