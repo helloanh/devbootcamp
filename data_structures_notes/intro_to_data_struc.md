@@ -31,8 +31,8 @@ Define data and operations, but no implementation:
   + graph
 
 Some points of consideration for each of these data types:  
-  1.logical view
-  2. operations
-  3. cost of operations
-  4. implementation
+    1.logical view  
+    2. operations  
+    3. cost of operations  
+    4. implementation  
 
