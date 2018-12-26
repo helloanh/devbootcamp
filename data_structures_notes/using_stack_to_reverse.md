@@ -49,7 +49,7 @@ int main() {
 
 #### Performance Complexity
 
-All the loops are running in constant time O(n).
+All the loops are running in linear time O(n).
 Time complexity = O(n)
 Space complexity = O(n)
 
